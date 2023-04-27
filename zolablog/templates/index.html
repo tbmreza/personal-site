@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+    <p>
+        <a href="{{ get_url(path='@/blog/_index.md') }}">blog</a>
+        <a href="{{ get_url(path='@/blog/_index.md') }}">resume</a>
+    </p>
+    <h2 class="title">About me</h2>
+    <p>
+        I am a software engineer currently employed by Mbiz, a business-to-business e-commerce company based in Indonesia.
+        I am assigned to a team that work on the web backend services of <a href="https://mbizmarket.co.id">mbizmarket.co.id</a>.
+        Previously I worked for <a href="https://idemia.com">IDEMIA</a>, where I was assigned as a software tester in their Card Personalization System
+        team in Jakarta.
+    </p>
+    <p>
+        While my resume tries to make a case for an area of expertise in web development, I also had in the past shown interests in optical comm laboratory
+        activities and in data science.
+        I was a lab assistant for a year when I was an undergraduate in Telkom University, and underwent an internship program at Telkom Divisi Digital
+        Service (now <a href="https://internship.ddbtelkom.id">Telkom DDB</a>) Bandung and Jakarta for as good as half a year.
+    </p>
+    {# <p> #}
+    {#     these days been busy building batupertama.dev #}
+    {# </p> #}
+    <p>I always look to collaborate, so feel free to contact me.</p>
+    <h2 class="title">Social media profiles</h2>
+    <ul>
+        <li>https://linkedin.com/in/reza-handzalah</li>
+        <li>https://twitter.com/rezahandzalah</li>
+        <li>https://github.com/tbmreza</li>
+    </ul>
+{% endblock content %}
